@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>D4.kml</name>
+	<name>4.kml</name>
 	<Schema name="DISTRITO_LOCAL" id="S_DISTRITO_LOCAL_IIIS">
 		<SimpleField type="int" name="ENTIDAD"><displayName>&lt;b&gt;ENTIDAD&lt;/b&gt;</displayName>
 </SimpleField>
@@ -28,8 +28,7 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>ff7faa55</color>
-			<colorMode>random</colorMode>
+			<color>8c7faa55</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor0">
@@ -44,23 +43,21 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>ff7faa55</color>
-			<colorMode>random</colorMode>
+			<color>8c7faa55</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="falseColor1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
-		<name>D4</name>
-		<visibility>0</visibility>
+		<name>4</name>
 		<styleUrl>#falseColor1</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">

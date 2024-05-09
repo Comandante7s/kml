@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>D24.kml</name>
+	<name>24.kml</name>
 	<Schema name="DISTRITO_LOCAL" id="S_DISTRITO_LOCAL_IIIS">
 		<SimpleField type="int" name="ENTIDAD"><displayName>&lt;b&gt;ENTIDAD&lt;/b&gt;</displayName>
 </SimpleField>
@@ -16,22 +16,16 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>ff00ffff</color>
-			<colorMode>random</colorMode>
-		</PolyStyle>
-	</Style>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -44,24 +38,27 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>ff00ffff</color>
-			<colorMode>random</colorMode>
+			<color>8c00ffff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c00ffff</color>
+		</PolyStyle>
+	</Style>
 	<Placemark>
-		<name>D24</name>
-		<visibility>0</visibility>
-		<styleUrl>#falseColor1</styleUrl>
+		<name>24</name>
+		<styleUrl>#falseColor</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">
 				<SimpleData name="ENTIDAD">19</SimpleData>
