@@ -16,7 +16,7 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
+	<Style id="falseColor51">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -28,10 +28,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7fff00</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor0">
+	<Style id="falseColor55">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -43,22 +43,31 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7fff00</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor1">
+	<StyleMap id="falseColor65">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor55</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor51</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
 		<name>15</name>
-		<styleUrl>#falseColor1</styleUrl>
+		<LookAt>
+			<longitude>-100.2564959148668</longitude>
+			<latitude>25.72767322927843</latitude>
+			<altitude>0</altitude>
+			<heading>0.05555200283532076</heading>
+			<tilt>33.03226582883769</tilt>
+			<range>25002.78246691508</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#falseColor65</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">
 				<SimpleData name="ENTIDAD">19</SimpleData>

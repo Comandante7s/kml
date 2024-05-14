@@ -16,16 +16,6 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -38,10 +28,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c00ffff</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor1">
+	<Style id="falseColor10">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -53,12 +43,22 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c00ffff</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="falseColor16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Placemark>
 		<name>24</name>
-		<styleUrl>#falseColor</styleUrl>
+		<styleUrl>#falseColor16</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">
 				<SimpleData name="ENTIDAD">19</SimpleData>

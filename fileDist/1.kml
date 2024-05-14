@@ -16,46 +16,46 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor0">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor1">
+	<StyleMap id="falseColor25">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor60</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor60">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
 	<Placemark>
 		<name>1</name>
 		<LookAt>
@@ -67,7 +67,7 @@
 			<range>7619.338607423781</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#falseColor1</styleUrl>
+		<styleUrl>#falseColor25</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">
 				<SimpleData name="ENTIDAD">19</SimpleData>

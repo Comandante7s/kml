@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>DISTRITO_LOCAL.kml</name>
-	<open>1</open>
 	<Schema name="DISTRITO_LOCAL" id="S_DISTRITO_LOCAL_IIIS">
 		<SimpleField type="int" name="ENTIDAD"><displayName>&lt;b&gt;ENTIDAD&lt;/b&gt;</displayName>
 </SimpleField>
@@ -17,472 +16,17 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor48">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor57">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c00aa55</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor56">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor55">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fff00</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor54">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cff00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor53">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor52">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor51">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fff00</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor50">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor49">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor58">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor47">
+	<StyleMap id="falseColor">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor11</styleUrl>
+			<styleUrl>#falseColor58</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor9</styleUrl>
+			<styleUrl>#falseColor50</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor46">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c0000aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor45">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor21</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor44">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor70</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor43">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor49</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor53</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor42">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cffaaaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor41">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor69</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor39">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor76</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor67">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor57</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor23</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor76">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor75">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f00aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor74">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor32</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor73">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor46</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor24</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor72">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor64</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor56</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor71">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cff00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor70">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor69">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cff0055</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor68">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor38">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor41</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor68</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor66">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor65">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor55</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor51</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor64">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor63">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cff00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor62">
+	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -497,17 +41,7 @@
 			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor61">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor36</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor62</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor60">
+	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -519,142 +53,7 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor59">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor9">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fff55</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor18">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor17">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor16">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor15">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cffaaaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor14">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffaa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor13">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffaa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor42</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor15</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor11">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fff55</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor10">
@@ -669,7 +68,112 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c00ffff</color>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor11">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor42</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor13">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor15">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="falseColor19">
@@ -682,81 +186,6 @@
 			<styleUrl>#falseColor54</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="falseColor8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor48</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor75</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor28</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="falseColor6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor27</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor5">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f55ff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor4">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7fffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor3">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8cff0055</color>
-		</PolyStyle>
-	</Style>
 	<Style id="falseColor2">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -769,10 +198,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7faa55</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor1">
+	<Style id="falseColor20">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -784,10 +213,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7f0000</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor0">
+	<Style id="falseColor21">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -799,7 +228,92 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c00ffff</color>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor22">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor23">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor24">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor26">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor27">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
 	<Style id="falseColor28">
@@ -814,20 +328,90 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7fffaa</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor37">
+	<Style id="falseColor29">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor30">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor31">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor71</styleUrl>
+			<styleUrl>#falseColor18</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor63</styleUrl>
+			<styleUrl>#falseColor26</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor36">
+	<Style id="falseColor32">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor52</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor66</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor34">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -852,7 +436,7 @@
 			<styleUrl>#falseColor29</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor34">
+	<Style id="falseColor36">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -864,85 +448,40 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8cff00aa</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor33">
+	<StyleMap id="falseColor37">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor52</styleUrl>
+			<styleUrl>#falseColor71</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor66</styleUrl>
+			<styleUrl>#falseColor63</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor32">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f0000</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor31">
+	<StyleMap id="falseColor38">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor18</styleUrl>
+			<styleUrl>#falseColor41</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor26</styleUrl>
+			<styleUrl>#falseColor68</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor30">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>807faaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor29">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f00aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor">
+	<StyleMap id="falseColor39">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor58</styleUrl>
+			<styleUrl>#falseColor5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor50</styleUrl>
+			<styleUrl>#falseColor76</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor27">
+	<Style id="falseColor4">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -954,35 +493,20 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>807faaff</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor26">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor25">
+	<StyleMap id="falseColor40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor4</styleUrl>
+			<styleUrl>#falseColor69</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor60</styleUrl>
+			<styleUrl>#falseColor3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor24">
+	<Style id="falseColor41">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -994,10 +518,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c0000aa</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor23">
+	<Style id="falseColor42">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -1009,10 +533,40 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c00aa55</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor22">
+	<StyleMap id="falseColor43">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor49</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor53</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor45">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor46">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -1024,10 +578,20 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8cff00ff</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor21">
+	<StyleMap id="falseColor47">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor48">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -1039,10 +603,10 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7faa55</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor20">
+	<Style id="falseColor49">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -1054,7 +618,442 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8cff00ff</color>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor5">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor50">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor51">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor52">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor53">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor54">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor55">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor56">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor57">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor58">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor59">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor60">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor36</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor62</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor62">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor63">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor64">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor65">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor55</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor66">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor67">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor57</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor68">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor69">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor70">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor71">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor72">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor64</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor56</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor73">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor46</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor74">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor75">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor76">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor48</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor75</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor9">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
@@ -1393,6 +1392,15 @@
 		</Placemark>
 		<Placemark>
 			<name>15</name>
+			<LookAt>
+				<longitude>-100.2564959148668</longitude>
+				<latitude>25.72767322927843</latitude>
+				<altitude>0</altitude>
+				<heading>0.05555200283532076</heading>
+				<tilt>33.03226582883769</tilt>
+				<range>25002.78246691508</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
 			<styleUrl>#falseColor65</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">

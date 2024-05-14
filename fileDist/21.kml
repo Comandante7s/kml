@@ -16,17 +16,32 @@
 		<SimpleField type="string" name="Geometry1_"><displayName>&lt;b&gt;Geometry1_&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="falseColor">
+	<Style id="falseColor29">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
+  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8cffffaa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor35">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor59</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor29</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor0">
+	<Style id="falseColor59">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
@@ -38,27 +53,12 @@
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
-			<color>8c7f00aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor1">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ENTIDAD</b></td><td>$[DISTRITO_LOCAL/ENTIDAD]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[DISTRITO_LOCAL/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[DISTRITO_LOCAL/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[DISTRITO_LOCAL/DISTRITO_L]</td></tr>
-  <tr><td><b>ID</b></td><td>$[DISTRITO_LOCAL/ID]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[DISTRITO_LOCAL/Geometry1_]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>8c7f00aa</color>
+			<color>8cffffaa</color>
 		</PolyStyle>
 	</Style>
 	<Placemark>
 		<name>21</name>
-		<styleUrl>#falseColor</styleUrl>
+		<styleUrl>#falseColor35</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_DISTRITO_LOCAL_IIIS">
 				<SimpleData name="ENTIDAD">19</SimpleData>
