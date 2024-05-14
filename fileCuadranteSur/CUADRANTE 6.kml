@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CUADRANTE 6.kml</name>
+	<Schema name="CUADRANTES SUR MTY" id="S_CUADRANTES_SUR_MTY_SSS">
+		<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUADRANTE"><displayName>&lt;b&gt;CUADRANTE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="layer"><displayName>&lt;b&gt;layer&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DISTRITO"><displayName>&lt;b&gt;DISTRITO&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[CUADRANTES SUR MTY/id_2]</td></tr>
+  <tr><td><b>CUADRANTE</b></td><td>$[CUADRANTES SUR MTY/CUADRANTE]</td></tr>
+  <tr><td><b>layer</b></td><td>$[CUADRANTES SUR MTY/layer]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[CUADRANTES SUR MTY/DISTRITO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[CUADRANTES SUR MTY/id_2]</td></tr>
+  <tr><td><b>CUADRANTE</b></td><td>$[CUADRANTES SUR MTY/CUADRANTE]</td></tr>
+  <tr><td><b>layer</b></td><td>$[CUADRANTES SUR MTY/layer]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[CUADRANTES SUR MTY/DISTRITO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CUADRANTE 6</name>
+		<visibility>0</visibility>
+		<styleUrl>#falseColor</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CUADRANTES_SUR_MTY_SSS">
+				<SimpleData name="id_2">6</SimpleData>
+				<SimpleData name="CUADRANTE">CUADRANTE 6</SimpleData>
+				<SimpleData name="layer">CUADRANTE 6</SimpleData>
+				<SimpleData name="DISTRITO">DIST 1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-100.2825463863104,25.63578267406599,0 -100.282915,25.63634800000002,0 -100.285272,25.63620800000002,0 -100.286697,25.63782700000001,0 -100.286898,25.63795600000001,0 -100.2884181,25.63712560000001,0 -100.2892694,25.63667659999999,0 -100.289788,25.63642099999998,0 -100.290062,25.63647400000001,0 -100.290185,25.63653010000002,0 -100.290367,25.636654,0 -100.291508,25.63763399999999,0 -100.29187,25.63800000000001,0 -100.292766,25.63653699999999,0 -100.2931209,25.63683549999999,0 -100.293314,25.63699199999999,0 -100.293508,25.63712199999999,0 -100.295376,25.63774599999998,0 -100.295701,25.637795,0 -100.296405,25.637455,0 -100.297055,25.63701800000002,0 -100.299039,25.63420600000001,0 -100.299651,25.63358699999999,0 -100.30122,25.631352,0 -100.299273,25.630085,0 -100.2951142307293,25.6273564509222,0 -100.286408,25.62736099999999,0 -100.285901,25.62723800000001,0 -100.28532,25.62720900000001,0 -100.2847455,25.62722450000001,0 -100.284114,25.62720999999997,0 -100.283561,25.62718200000001,0 -100.283133,25.62718200000001,0 -100.283002,25.62721300000002,0 -100.281706,25.627219,0 -100.281611,25.62721400000002,0 -100.2809963,25.62722609999998,0 -100.279306,25.62719700000002,0 -100.2770882960581,25.62713119942567,0 -100.2774379777758,25.62768110906509,0 -100.2808300690141,25.63301551339619,0 -100.2824685261519,25.63565044204122,0 -100.2825463863104,25.63578267406599,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

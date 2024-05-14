@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CUADRANTE 19.kml</name>
+	<Schema name="CUADRANTES SUR MTY" id="S_CUADRANTES_SUR_MTY_SSS">
+		<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CUADRANTE"><displayName>&lt;b&gt;CUADRANTE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="layer"><displayName>&lt;b&gt;layer&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DISTRITO"><displayName>&lt;b&gt;DISTRITO&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[CUADRANTES SUR MTY/id_2]</td></tr>
+  <tr><td><b>CUADRANTE</b></td><td>$[CUADRANTES SUR MTY/CUADRANTE]</td></tr>
+  <tr><td><b>layer</b></td><td>$[CUADRANTES SUR MTY/layer]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[CUADRANTES SUR MTY/DISTRITO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[CUADRANTES SUR MTY/id_2]</td></tr>
+  <tr><td><b>CUADRANTE</b></td><td>$[CUADRANTES SUR MTY/CUADRANTE]</td></tr>
+  <tr><td><b>layer</b></td><td>$[CUADRANTES SUR MTY/layer]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[CUADRANTES SUR MTY/DISTRITO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CUADRANTE 19</name>
+		<visibility>0</visibility>
+		<styleUrl>#falseColor</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CUADRANTES_SUR_MTY_SSS">
+				<SimpleData name="id_2">19</SimpleData>
+				<SimpleData name="CUADRANTE">CUADRANTE 19</SimpleData>
+				<SimpleData name="layer">CUADRANTE 19</SimpleData>
+				<SimpleData name="DISTRITO">DIST 3</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-100.242188,25.59780199999999,0 -100.242754,25.59738200000002,0 -100.243187,25.59729,0 -100.243604,25.59690799999997,0 -100.243523,25.59679300000001,0 -100.2443834,25.59624589999998,0 -100.245277,25.59564499999998,0 -100.244738,25.59490299999998,0 -100.2458907,25.59415829999999,0 -100.246642,25.59366599999999,0 -100.246743,25.59380300000001,0 -100.2474088,25.59337329999999,0 -100.247963,25.593013,0 -100.247887,25.592913,0 -100.24797,25.59286700000003,0 -100.247901,25.59142200000001,0 -100.249043,25.590704,0 -100.249893,25.589564,0 -100.2491308,25.58922099999999,0 -100.248126,25.58876100000002,0 -100.2478046,25.58858280000003,0 -100.24751,25.58839499999999,0 -100.247375,25.58827400000002,0 -100.246855,25.58748099999999,0 -100.2464371,25.58672449999999,0 -100.24599,25.58598399999999,0 -100.2450275,25.58444779999998,0 -100.244339,25.58336900000001,0 -100.243683,25.58194,0 -100.242989,25.58050900000002,0 -100.2415608,25.57781159999998,0 -100.24008,25.57804499999999,0 -100.239096,25.57808599999998,0 -100.2385791,25.57829329999999,0 -100.2373126,25.57875889999998,0 -100.23599,25.579247,0 -100.234315,25.579932,0 -100.2324529,25.58102230000001,0 -100.230217,25.58231300000001,0 -100.2267406107989,25.58464609353625,0 -100.2267442676593,25.58465106558906,0 -100.2271835747441,25.58511526414118,0 -100.2283008,25.5862672,0 -100.2296733,25.58772080000001,0 -100.2308749,25.58895949999998,0 -100.2325380433974,25.59077312098617,0 -100.2325384660555,25.59077356759244,0 -100.2330928474064,25.59133871394088,0 -100.2356975203714,25.59389716850145,0 -100.2364652299885,25.59472375850457,0 -100.2373828,25.59569189999998,0 -100.2380318,25.5964031,0 -100.2387060721806,25.5971364647066,0 -100.2387152302496,25.59714632516433,0 -100.2387171503289,25.59714851373242,0 -100.23871715084,25.59714851431507,0 -100.2402090753312,25.59884905781225,0 -100.242188,25.59780199999999,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

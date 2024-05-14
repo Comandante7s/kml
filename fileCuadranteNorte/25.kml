@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>25.kml</name>
+	<Schema name="ZONA NORTE CUADRANTES" id="S_ZONA_NORTE_CUADRANTES_SSSSSSS">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descriptio"><displayName>&lt;b&gt;descriptio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="timestamp"><displayName>&lt;b&gt;timestamp&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="begin"><displayName>&lt;b&gt;begin&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="end"><displayName>&lt;b&gt;end&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="altitudeMo"><displayName>&lt;b&gt;altitudeMo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="tessellate"><displayName>&lt;b&gt;tessellate&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="extrude"><displayName>&lt;b&gt;extrude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="visibility"><displayName>&lt;b&gt;visibility&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="drawOrder"><displayName>&lt;b&gt;drawOrder&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[ZONA NORTE CUADRANTES/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[ZONA NORTE CUADRANTES/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[ZONA NORTE CUADRANTES/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[ZONA NORTE CUADRANTES/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[ZONA NORTE CUADRANTES/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[ZONA NORTE CUADRANTES/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[ZONA NORTE CUADRANTES/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[ZONA NORTE CUADRANTES/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[ZONA NORTE CUADRANTES/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[ZONA NORTE CUADRANTES/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[ZONA NORTE CUADRANTES/icon]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[ZONA NORTE CUADRANTES/Name]</td></tr>
+  <tr><td><b>descriptio</b></td><td>$[ZONA NORTE CUADRANTES/descriptio]</td></tr>
+  <tr><td><b>timestamp</b></td><td>$[ZONA NORTE CUADRANTES/timestamp]</td></tr>
+  <tr><td><b>begin</b></td><td>$[ZONA NORTE CUADRANTES/begin]</td></tr>
+  <tr><td><b>end</b></td><td>$[ZONA NORTE CUADRANTES/end]</td></tr>
+  <tr><td><b>altitudeMo</b></td><td>$[ZONA NORTE CUADRANTES/altitudeMo]</td></tr>
+  <tr><td><b>tessellate</b></td><td>$[ZONA NORTE CUADRANTES/tessellate]</td></tr>
+  <tr><td><b>extrude</b></td><td>$[ZONA NORTE CUADRANTES/extrude]</td></tr>
+  <tr><td><b>visibility</b></td><td>$[ZONA NORTE CUADRANTES/visibility]</td></tr>
+  <tr><td><b>drawOrder</b></td><td>$[ZONA NORTE CUADRANTES/drawOrder]</td></tr>
+  <tr><td><b>icon</b></td><td>$[ZONA NORTE CUADRANTES/icon]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c7f5500</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>25</name>
+		<styleUrl>#falseColor</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_ZONA_NORTE_CUADRANTES_SSSSSSS">
+				<SimpleData name="Name">CUADRANTE 25</SimpleData>
+				<SimpleData name="descriptio">25</SimpleData>
+				<SimpleData name="timestamp"></SimpleData>
+				<SimpleData name="begin"></SimpleData>
+				<SimpleData name="end"></SimpleData>
+				<SimpleData name="altitudeMo"></SimpleData>
+				<SimpleData name="tessellate">-1</SimpleData>
+				<SimpleData name="extrude">0</SimpleData>
+				<SimpleData name="visibility">-1</SimpleData>
+				<SimpleData name="drawOrder">0</SimpleData>
+				<SimpleData name="icon"></SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-100.318567,25.72947099999997,0 -100.3189225,25.72943649999999,0 -100.319282,25.72938500000001,0 -100.319511,25.72934999999999,0 -100.32007,25.72921899999999,0 -100.3214332,25.72942850000001,0 -100.323563,25.72967639999998,0 -100.3237613,25.72966230000002,0 -100.32408,25.72978799999998,0 -100.324525,25.7298897,0 -100.3245919,25.7298862,0 -100.324748,25.72987770000001,0 -100.324958,25.72980000000002,0 -100.325166,25.72965,0 -100.325593,25.72925070000001,0 -100.325884,25.728997,0 -100.326122,25.72891899999998,0 -100.3279574,25.72929859999998,0 -100.32851,25.72942900000001,0 -100.3288649,25.72956320000001,0 -100.329782,25.73003199999999,0 -100.330097,25.73038799999999,0 -100.330317,25.73074599999999,0 -100.330709,25.73145799999999,0 -100.3315602,25.7319441,0 -100.332738,25.73258499999999,0 -100.335163,25.733016,0 -100.336067,25.73335430000002,0 -100.336219,25.73222730000001,0 -100.337884,25.7324493,0 -100.338362,25.73138630000001,0 -100.339633,25.73228430000001,0 -100.340524,25.73261030000001,0 -100.339991,25.73187229999998,0 -100.340004,25.7314306,0 -100.3400129,25.73098649999999,0 -100.3400681,25.73094109999999,0 -100.3405275,25.73059900000002,0 -100.3409442,25.73023369999997,0 -100.341032,25.73015699999998,0 -100.3410111,25.73013850000001,0 -100.340961,25.73009500000001,0 -100.3410468,25.73002700000001,0 -100.3412735,25.72984930000002,0 -100.3415177,25.72968409999998,0 -100.3418239,25.7294351,0 -100.3421864,25.72912809999998,0 -100.342603,25.72876300000003,0 -100.3425897,25.72708539999999,0 -100.3425757,25.72625540000002,0 -100.342571,25.72502300000001,0 -100.342504,25.72505200000001,0 -100.337352,25.72340500000003,0 -100.3381452,25.7226173,0 -100.338739,25.72202900000001,0 -100.3379154,25.72128760000001,0 -100.337124,25.72058000000002,0 -100.3362685,25.72094439999999,0 -100.3340289,25.72164699999998,0 -100.331363,25.722424,0 -100.33113,25.72249400000003,0 -100.330561,25.72279299999999,0 -100.329076,25.723565,0 -100.328639,25.72373499999999,0 -100.3283237,25.72391490000001,0 -100.3271502,25.72424939999999,0 -100.324846,25.72498799999999,0 -100.323946,25.725304,0 -100.3237370402323,25.72530372897567,0 -100.3234837,25.72543519999998,0 -100.3231917,25.72572319999999,0 -100.3230017,25.7259682,0 -100.3221407,25.72717420000002,0 -100.3218167,25.7275812,0 -100.3212787,25.72822320000001,0 -100.3211447,25.72837319999999,0 -100.3208297,25.72868819999999,0 -100.3204427,25.7289602,0 -100.3199507,25.72917219999999,0 -100.3193917,25.7293032,0 -100.3191057,25.72936519999997,0 -100.3186437,25.72940820000001,0 -100.3186048344718,25.72941137269616,0 -100.318567,25.72947099999997,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
