@@ -24,75 +24,60 @@
 		<SimpleField type="int" name="DISTANCIA"><displayName>&lt;b&gt;DISTANCIA&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="falseColor">
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[SECCION/ID]</td></tr>
+  <tr><td><b>ENTIDAD</b></td><td>$[SECCION/ENTIDAD]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[SECCION/DISTRITO_L]</td></tr>
+  <tr><td><b>MUNICIPIO</b></td><td>$[SECCION/MUNICIPIO]</td></tr>
+  <tr><td><b>SECCION</b></td><td>$[SECCION/SECCION]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[SECCION/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[SECCION/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_F</b></td><td>$[SECCION/DISTRITO_F]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[SECCION/Geometry1_]</td></tr>
+  <tr><td><b>DISTANCIA</b></td><td>$[SECCION/DISTANCIA]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[SECCION/ID]</td></tr>
+  <tr><td><b>ENTIDAD</b></td><td>$[SECCION/ENTIDAD]</td></tr>
+  <tr><td><b>DISTRITO_L</b></td><td>$[SECCION/DISTRITO_L]</td></tr>
+  <tr><td><b>MUNICIPIO</b></td><td>$[SECCION/MUNICIPIO]</td></tr>
+  <tr><td><b>SECCION</b></td><td>$[SECCION/SECCION]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[SECCION/TIPO]</td></tr>
+  <tr><td><b>CONTROL</b></td><td>$[SECCION/CONTROL]</td></tr>
+  <tr><td><b>DISTRITO_F</b></td><td>$[SECCION/DISTRITO_F]</td></tr>
+  <tr><td><b>Geometry1_</b></td><td>$[SECCION/Geometry1_]</td></tr>
+  <tr><td><b>DISTANCIA</b></td><td>$[SECCION/DISTANCIA]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<color>8c00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#falseColor0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor0">
-		<IconStyle>
-		</IconStyle>
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ID</b></td><td>$[SECCION/ID]</td></tr>
-  <tr><td><b>ENTIDAD</b></td><td>$[SECCION/ENTIDAD]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[SECCION/DISTRITO_L]</td></tr>
-  <tr><td><b>MUNICIPIO</b></td><td>$[SECCION/MUNICIPIO]</td></tr>
-  <tr><td><b>SECCION</b></td><td>$[SECCION/SECCION]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[SECCION/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[SECCION/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_F</b></td><td>$[SECCION/DISTRITO_F]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[SECCION/Geometry1_]</td></tr>
-  <tr><td><b>DISTANCIA</b></td><td>$[SECCION/DISTANCIA]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-		</LineStyle>
-		<PolyStyle>
-			<color>8c00ff00</color>
-		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
-	</Style>
-	<Style id="falseColor1">
-		<IconStyle>
-		</IconStyle>
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>ID</b></td><td>$[SECCION/ID]</td></tr>
-  <tr><td><b>ENTIDAD</b></td><td>$[SECCION/ENTIDAD]</td></tr>
-  <tr><td><b>DISTRITO_L</b></td><td>$[SECCION/DISTRITO_L]</td></tr>
-  <tr><td><b>MUNICIPIO</b></td><td>$[SECCION/MUNICIPIO]</td></tr>
-  <tr><td><b>SECCION</b></td><td>$[SECCION/SECCION]</td></tr>
-  <tr><td><b>TIPO</b></td><td>$[SECCION/TIPO]</td></tr>
-  <tr><td><b>CONTROL</b></td><td>$[SECCION/CONTROL]</td></tr>
-  <tr><td><b>DISTRITO_F</b></td><td>$[SECCION/DISTRITO_F]</td></tr>
-  <tr><td><b>Geometry1_</b></td><td>$[SECCION/Geometry1_]</td></tr>
-  <tr><td><b>DISTANCIA</b></td><td>$[SECCION/DISTANCIA]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-		</LineStyle>
-		<PolyStyle>
-			<color>8c00ff00</color>
-		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
-	</Style>
 	<Placemark>
 		<name>9</name>
-		<styleUrl>#falseColor</styleUrl>
+		<visibility>0</visibility>
+		<styleUrl>#falseColor1</styleUrl>
 		<ExtendedData>
 			<SchemaData schemaUrl="#S_SECCION_IIIIIISI">
 				<SimpleData name="ID">9</SimpleData>
